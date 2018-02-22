@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/imperialrolls/heckerPLLC/issues"
   },
-  "homepage": "https://github.com/imperialrolls/heckerPLLC#readme"
+  "homepage": "https://github.com/imperialrolls/heckerPLLC#readme",
+  "dependencies": {
+    "materialize-css": "^0.100.2"
+  }
 }

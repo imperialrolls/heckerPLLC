@@ -1,0 +1,29 @@
+body {
+  /* background-image: url(../img/dreamboat.jpg);
+  background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; */
+	background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.animated {
+  -webkit-animation-duration: 3.0s;
+  animation-duration: 3.0s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+/* .center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 48%;
+  height: 59%;
+} */
+
+.li {
+  font: color black;
+}
