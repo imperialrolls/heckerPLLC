@@ -42,8 +42,21 @@ div.section .col {
 #portrait-panel img {
     display: block;
     margin: 0 auto;
+    transition: transform .4s ease-in-out;
+}
+
+#portrait-panel img:hover {
+    transform: scale(1.1);
+}
+
+#section2 div.col {
+    transition: transform .4s ease-in-out;
+}
+#section2 div.col:hover {
+    transform: scale(1.1);
 }
 
 .iconMargin {
     margin: 0 .5rem;
 }
+
