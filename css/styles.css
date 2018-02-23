@@ -32,8 +32,15 @@ div.section .col {
 .parallax-container {
       height: 500px;
     }
-.parallax-container.splash {
+.splash {
     height: 1000px;
+    height: 95vh;
+    background-image: url(../img/cactuspot3.jpg);
+    background-size: cover;
+    position: relative;
+}
+.splash h1 {
+    padding-top: 25vh;
 }
 
 #portrait-panel {
@@ -60,3 +67,48 @@ div.section .col {
     margin: 0 .5rem;
 }
 
+.scroll-down {
+    position: absolute;
+    bottom: 10vh;
+    left: 50%;
+    z-index: 50;
+    display: inline-block;
+    -webkit-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    color: #000;
+    font : normal 400 20px/1 'Josefin Sans', sans-serif;
+    letter-spacing: .1em;
+    text-decoration: none;
+    transition: opacity .3s;
+    border-radius: 48px;
+
+}
+.scroll-down:hover {
+    opacity: .5;
+}
+
+.scroll-down a span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 46px;
+    height: 46px;
+    margin-left: -23px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+.scroll-down a span::after {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 16px;
+    height: 16px;
+    margin: -12px 0 0 -8px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-sizing: border-box;
+}
