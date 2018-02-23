@@ -19,6 +19,31 @@ body {
   font: color black;
 }
 
+div.section {
+    min-height: 500px;
+}
+div.section .row {
+    height: 100%;
+}
+div.section .col {
+    height: 100%;
+}
+
 .parallax-container {
-      height: "500px";
+      height: 500px;
     }
+.parallax-container.splash {
+    height: 1000px;
+}
+
+#portrait-panel {
+    min-height: 600px;
+}
+#portrait-panel img {
+    display: block;
+    margin: 0 auto;
+}
+
+.iconMargin {
+    margin: 0 .5rem;
+}
