@@ -6,6 +6,7 @@ $(".button-collapse").sideNav();
 $(document).ready(function() {
     $('.parallax').parallax();
 
+    /* interaction with parallax not so nice
     $('.smooth-scroller').click(function() {
         // prevent the default action of the click
         event.preventDefault();
@@ -14,16 +15,6 @@ $(document).ready(function() {
         if (this.hash == "")
             return;
 
-        /*
-        if (this.hash !== "") {
-            let hash = this.hash;
-            $('html, body').animate({
-                scrollTop: $("#section2").offset().top
-            }, 800, function() {
-                window.location.hash = hash;
-            });
-        }
-        */
         function getPageScroll() {
             let yScroll;
 
@@ -55,5 +46,6 @@ $(document).ready(function() {
             body.style.cssText = "";
         }, animateTime);
     });
+    */
 });
 
