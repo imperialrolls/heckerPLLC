@@ -33,11 +33,13 @@ div.section .col {
       height: 500px;
     }
 .splash {
-    height: 1000px;
     height: 95vh;
-    background-image: url(../img/cactuspot3.jpg);
-    background-size: cover;
     position: relative;
+}
+.splash .anchor-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 .splash h1 {
     padding-top: 25vh;
