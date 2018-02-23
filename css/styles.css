@@ -42,8 +42,11 @@ div.section .col {
     bottom: 0;
     width: 100%;
 }
-.splash h1 {
-    padding-top: 20vh;
+.splash div.banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #portrait-panel {
